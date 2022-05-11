@@ -124,6 +124,7 @@ void loop() {
           if (buttonStateYES == HIGH){
             lcd.clear();
             lcd.println("Ok it's reversed");
+            Serial.println("Call API SNCF");
           }
           else if (buttonStateNO == HIGH){
             lcd.clear();

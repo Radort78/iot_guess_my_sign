@@ -37,6 +37,7 @@ void setup() {
   if (firstTime == 1){
     lcd.setCursor(0, 1);
     lcd.print("Run the tuto");
+    firstTime = 0;
   }
   delay(3000);
   lcd.clear();
